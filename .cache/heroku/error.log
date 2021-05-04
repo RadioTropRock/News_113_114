@@ -1,0 +1,62 @@
+2021-04-27T14:27:02.387Z Warning: update with "sudo apt update && sudo apt install heroku"
+2021-04-27T14:27:02.387Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/errors/lib/index.js:49:15)
+2021-04-27T14:27:02.387Z     at UpdateCommand.warn (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/command/lib/command.js:57:16)
+2021-04-27T14:27:02.387Z     at UpdateCommand.skipUpdate (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:111:22)
+2021-04-27T14:27:02.387Z     at UpdateCommand.run (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:27:33)
+2021-04-27T14:27:02.387Z     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-04-27T14:27:02.387Z     at async UpdateCommand._run (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/command/lib/command.js:43:20)
+2021-04-27T14:27:02.387Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2021-04-27T14:27:02.387Z     at async Main.run (/usr/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2021-04-27T14:27:02.387Z     at async Main._run (/usr/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2021/05/01 17:20:24 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://hidden-woodland-55232.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:421:26)
+    at ChildProcess.emit (events.js:314:20)
+    at maybeClose (internal/child_process.js:1022:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+2021/05/01 17:24:24 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021/05/01 17:24:24 {"resource":"process_type (web)","id":"not_found","message":"Couldn't find that process type (web)."}
+2021/05/01 17:24:55 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021/05/01 17:24:55 {"resource":"process_type (web)","id":"not_found","message":"Couldn't find that process type (web)."}
+2021/05/01 17:25:27 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://hidden-woodland-55232.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:421:26)
+    at ChildProcess.emit (events.js:314:20)
+    at maybeClose (internal/child_process.js:1022:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+2021/05/04 01:36:33 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://mighty-fjord-70433.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:421:26)
+    at ChildProcess.emit (events.js:314:20)
+    at maybeClose (internal/child_process.js:1022:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+2021/05/04 02:05:17 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://mighty-fjord-70433.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:421:26)
+    at ChildProcess.emit (events.js:314:20)
+    at maybeClose (internal/child_process.js:1022:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
