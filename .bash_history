@@ -313,3 +313,137 @@ cls
 clear
 git status
 exit
+cd ~/Code/SDGKU
+mkdir mb
+cd mb
+python3 -m venv venv
+source venv/bin/activate
+pip3 install django
+django-admin startproject config .
+ls
+python3 manage.py startapp posts
+code .
+python3 manage.py migrate
+ls
+python3 manage.py runserver
+python3 manage.py makemigrations
+python3 manage.py migrate
+python manage.py createsuperuser
+python3 manage.py runserver
+git status
+git -A
+git commit -m "sat may 1 class"
+git add .
+git commit -m "sat may 1 class"
+git push
+git push .
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+git init
+git add -A
+git commit -m "pre-class commit"
+git reset
+git log
+git status
+rm -rf .git
+ls
+git init
+git add -A
+git commit -m 
+git commit -m "second commit"
+clear
+python3 manage.py test
+git add -A
+git -m "added tests
+
+git -m "added tests"
+git add -A
+git -m "added tests"
+git commit -m "added tests"
+git log
+git remote add origin https://github.com/RadioTropRock/mb-app.git
+git branch -M main
+git push -u origin main
+RadioTropRock
+git remote add origin https://github.com/RadioTropRock/mb-app.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/RadioTropRock/mb-app.git
+git branch -M main
+git push -u origin main
+pip3 install gunicorn
+touch Procfile
+code .
+heroku
+code .
+pip3 freeze > requirements.txt
+code .
+git add -A
+git commit -m "added test cases and requirements"
+git push
+heroku create
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku main
+heroku open
+heroku ps:scale web=1
+heroku logs --tail
+git add -A
+git commit -m "more"
+git push
+git push heroku main
+heroku open
+git add -A
+git commit -m "more1"
+git push
+git  add -A
+git commit -m "another"
+git push
+git push heroku master
+deactivate
+cd ..
+clear
+cd ~/Code/SDGKU
+mkdir blog
+cd blog
+python3 -m venv venv
+source venv/vin/activate
+source venv/bin/activate
+pip3 intall django
+pip3 install django
+django-admin startproject config .
+python3 manage.py startup blog
+python3 manage.py startapp blog
+python3 manage.py migrate
+python3 manage.py runserver
+ls
+code .
+python3 manage.py makemigrations
+python3 manage.py migrate
+code .
+python3 manage.py createsuperuser
+python3 mange.py runserver
+python3 manage.py runserver
+touch blog/urls.py
+code .
+mkdir templates
+touch templates/home.html
+code .
+touch templates/base.html
+code .
+python3 manage.py runserver
+git remote add origin https://github.com/RadioTropRock/blog-app.git
+git branch -M main
+git push -u origin main
+git add -A
+git remote add origin https://github.com/RadioTropRock/blog-app.git
+git branch -M main
+git push -u origin main
+git add -A
+git commit -m "first commit for blog app"
+git push
+git remote add origin https://github.com/RadioTropRock/blog-app.git
+git branch -M main
+git push -u origin main
+git push
