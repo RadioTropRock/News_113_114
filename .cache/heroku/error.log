@@ -60,3 +60,15 @@ Manually visit https://mighty-fjord-70433.herokuapp.com/ in your browser.
     at ChildProcess.emit (events.js:314:20)
     at maybeClose (internal/child_process.js:1022:16)
     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+2021/05/11 01:27:08 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021/05/11 01:27:08 {"resource":"app","id":"not_found","message":"Couldn't find that app."}
+2021/05/11 01:27:20 Error: Expected response to be successful, got 403
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021/05/11 01:27:20 {"id":"forbidden","message":"You do not have access to the app log."}

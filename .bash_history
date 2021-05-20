@@ -447,3 +447,189 @@ git remote add origin https://github.com/RadioTropRock/blog-app.git
 git branch -M main
 git push -u origin main
 git push
+~/Code/SDGKU/blog
+~/Code
+bash .run
+cd blog
+cd Code
+~/Code/SDGKU/blog
+cd ~/Code/SDGKU
+cd mb
+python3 -m venv venv
+source venv/bin/activate
+pip3 install django
+code .
+ls
+python3 manage.py runserver
+clear
+deactivate
+cd~/Code/SDGKU/blog
+cd ~/Code/SDGKU
+cd blog
+code .
+python3 -m venv venv
+source venv/bin/activate
+code .
+python3 manage.py runserver
+mkdir static
+code .
+mkdir static/css
+touch static/css/base.css
+code .
+python3 manage.py runserver
+git remote add origin https://github.com/RadioTropRock/blog-app.git
+git branch -M main
+git push -u origin main
+git add
+git add -A
+git commit -m "blog app commit 1"
+echo "# 112_post" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RadioTropRock/112_post.git
+git push -u origin main
+git add -A
+git commit -m "commit posts 1?"
+python3 manage.py runserver
+python3 manage.py test
+git init
+git status
+pip3 freeze > requirements.txt
+git init
+git add -A
+git commit -m "initial commit"
+git status
+touch templates/post_new.html
+code .
+python3 manage.py runserver
+git add -A
+git commit -m "second commit"
+git push
+~/Code/SKGKU
+~/Code
+cd ~/Code
+cd SDGKU
+cd blog
+code .
+python3 manage.py runserver
+source venv/bin/activate
+python3 manage.py runserver
+python3 manage.py test
+python3 manage.py runserver
+python3 manage.py startapp accounts
+ls
+code .
+python3 manage.py runserver
+git remote add origin https://github.com/RadioTropRock/blog-app.git
+git branch -M main
+git push -u origin main
+git add -A
+git commit -m "May08 update"
+git push
+python3 manage.py runserver
+code .
+pip3 freeze > requirements.txt
+git status
+git remote add origin https://github.com/RadioTropRock/django_blog.git
+git branch -M main
+git push -u origin main
+ls -a
+cd ..
+ls -a
+cd blog
+git config --list
+git remote set-url git remote add origin https://github.com/RadioTropRock/django_blog.git
+git branch -M main
+git push -u origin main
+git remote set-url origin REPOLINK
+git remote add origin https://github.com/RadioTropRock/django_blog.git
+git log
+git remote set-url origin https://github.com/RadioTropRock/django_blog.git
+git push
+code .
+clear
+python3 manage.py collectstatic
+code .
+pip3 install whitenoise
+python3 manage.py collectstatic
+code .
+pip3 install gunicorn
+touch Procfile
+code .
+clear
+git status
+dit add -A
+git commit 'm "hero config"
+
+git commit -m "hero config"
+git add -A
+git commit -m "hero config"
+git log
+cd ~/Code
+cd SDGKU
+cd blog
+code .
+git status
+heroku
+heroku login
+heroku open
+heroku --app APP
+heroku -a
+heroku open
+heroku open --app APP
+heroku open --app log
+git add -A
+git commit -m "short"
+git push heroku main
+gunicorn config.wsgi --log-file -
+pip3 install gunicorn
+git remote
+git remote set-url https://github.com/RadioTropRock/django_blog.git
+deactivate
+cd ..
+mkdir news
+cd news
+python3 -m venv venv
+source venv/bin/activate
+pip3 install django
+django-admin startproject config .
+python3  manage.py startapp accounts
+ls
+code .
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+python3 manage.py createsuperuser
+python3 manage.py runserver
+clear
+mk dir templates
+mkdir templates
+mkdir templates/registration
+ls
+ls templates
+touch templates/base.html
+touch templates/home.html
+touch templates/registration/signup.html
+code .
+ls .
+python3 manage.py runserver
+python3 manage.py startapp pages
+ls
+code .
+python3 manage.py test
+clear
+python3 manage.py test
+cd ~/Code
+cd SKGKU
+cd SDGKU
+cd blog
+code .
+python3 manage.py runserver
+python3 -m venv venv
+source venv/bin/activate
+python3 manage.py runserver
+cd app
+cd mb
+exit
